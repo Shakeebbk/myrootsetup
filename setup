@@ -2,3 +2,4 @@
 
 cp -rvf .shakeeb_bashrc ~/
 cp -rvf .vim* ~/
+cp -rvf .muttrc ~/
