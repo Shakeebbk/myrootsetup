@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp -rvf .shakeeb_bashrc ~/
+cp -rvf .vim* ~/

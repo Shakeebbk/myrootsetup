@@ -1,0 +1,30 @@
+#!/usr/bin/expect
+
+alias tn="tmux new -s"
+alias ta="tmux attach -d -t"
+alias tl="tmux ls"
+alias tk="tmux kill-session -t"
+
+alias bashedit="vim ~/.bashrc"
+alias bashload="source ~/.bashrc"
+
+# git aliases
+function gpm { git fetch $1 && git rebase --onto $1/$2 HEAD; }
+alias gca="git commit --amend"
+alias gs="git status"
+alias gb="git branch"
+function ga { git add $*; }
+alias gpr="git push ppe HEAD:refs/for/master"
+function gc { git checkout $*; }
+function gitp { git pull $*; }
+function gitf { git fetch $*; }
+
+# grep functions
+function g { grep -rnI "$1" . --color; }
+function gp { grep -rnI "$1" $2 --color; }
+function gi { grep -rnIi "$1" . --color; }
+function gpi { grep -rnIi "$1" $2 --color; }
+
+# find functions
+function f { find . -name "$1"; }
+function fp { find $2 -name "$1"; }

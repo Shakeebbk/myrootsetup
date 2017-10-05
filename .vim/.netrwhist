@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/afs/awd.austin.ibm.com/proj/p9/eclipz/lab/p9/.volumes/.volumemgt/vol_man_0035/security/sbe-debug'
+let g:netrw_dirhist_2='/gsa/ausgsa-p10/03/indiateam04/shakeeb/workspace/dd2.1/src/sbei/sbfw/img'
+let g:netrw_dirhist_3='/gsa/ausgsa-p10/03/indiateam04/shakeeb/temp'
+let g:netrw_dirhist_4='/esw/san2/shakeeb/ppeDev/ppe/src/test/testcases'
+let g:netrw_dirhist_5='/esw/san2/shakeeb/ppeDev/ppe/temp'
+let g:netrw_dirhist_6='/esw/san2/shakeeb/openbmc/openbmc/meta-openbmc-machines/meta-openpower/meta-ibm/meta-witherspoon/recipes-phosphor/debug/openpower-debug-collector'
+let g:netrw_dirhist_7='/gsa/ausgsa-p10/03/indiateam04/shakeeb/workspace/security_dd/src/sbei/sbfw/img'
