@@ -1,9 +1,13 @@
 #!/usr/bin/expect
 
+source ~/.shakeeb_pass
+
 alias tn="tmux new -s"
 alias ta="tmux attach -d -t"
 alias tl="tmux ls"
 alias tk="tmux kill-session -t"
+
+alias mutt="mutt -F ~/.muttrc"
 
 alias bashedit="vim ~/.bashrc"
 alias bashload="source ~/.bashrc"
