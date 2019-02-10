@@ -32,3 +32,9 @@ function gpi { grep -rnIi "$1" $2 --color; }
 # find functions
 function f { find . -name "$1"; }
 function fp { find $2 -name "$1"; }
+
+export PS1=$PS1"$ "
+
+git config --global user.email "shakeebbk@gmail.com"
+git config --global user.name "Shakeeb Pasha"
+git config --global core.editor "vim"
