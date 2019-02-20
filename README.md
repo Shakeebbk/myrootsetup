@@ -11,16 +11,6 @@ https://blog.ropnop.com/configuring-a-pretty-and-usable-terminal-emulator-for-ws
 ## Install ultimate rc
 [Vimrc Link](https://github.com/amix/vimrc)
 
-## Change color scheme
-```
-~/.vim_runtime/vimrcs/basic.vim
-colorschem solarized
-```
-## Change NerdTree scheme
-```
-~/.vim_runtime/vimrcs/plugins_config.vim
-NerdTree window - left
-```
 ### VIM Commands
 https://stackoverflow.com/questions/11784408/vim-multiline-editing-like-in-sublimetext
 
@@ -48,3 +38,5 @@ next and prev finding - ,n & ,p
 sudo apt install ack -y
 simpler: cntrl+v select, gv
 ,g cntrl+r "
+# TMUX
+https://gist.github.com/MohamedAlaa/2961058

@@ -39,3 +39,6 @@ git config --global user.email "shakeebbk@gmail.com"
 git config --global user.name "Shakeeb Pasha"
 git config --global core.editor "vim"
 git config --global diff.tool "vimdiff"
+
+# zsh config
+unsetopt share_history
