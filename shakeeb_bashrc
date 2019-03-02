@@ -35,7 +35,7 @@ function fp { find $2 -name "$1"; }
 
 export PS1=$PS1"$ "
 
-git config --global user.email "shakeebbk@gmail.com"
+#git config --global user.email "shakeebbk@gmail.com"
 git config --global user.name "Shakeeb Pasha"
 git config --global core.editor "vim"
 git config --global diff.tool "vimdiff"

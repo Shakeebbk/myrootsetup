@@ -1,5 +1,6 @@
 #!/bin/bash
 
-cp -rvf shakeeb_bashrc ~/
-cp -rvf .vim* ~/
-cp -rvf .muttrc ~/
+#cp -rvf shakeeb_bashrc ~/
+#cp -rvf .vim* ~/
+#cp -rvf .muttrc ~/
+echo "source `pwd`/shakeeb_tmux_conf" >> ~/.tmux.conf
