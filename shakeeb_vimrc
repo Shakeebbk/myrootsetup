@@ -95,3 +95,5 @@ map <C-Right> <C-W>l
 map <S-tab> :tabp<CR>
 map <tab> :tabn<CR>
 
+" avoid markdown wrap
+let g:vim_markdown_folding_disabled = 1
