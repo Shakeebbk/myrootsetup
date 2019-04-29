@@ -7,6 +7,12 @@ set -g prefix C-a # change prefix key to Ctrl-a as global opt, same as gnu scree
 bind a send-prefix #send ^A, so that you can press ctrl-a a to send ctrl-a
 
 # Save and restore tmux sessions on reboot
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @continuum-restore 'on'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run -b '~/.tmux/plugins/tpm/tpm'
