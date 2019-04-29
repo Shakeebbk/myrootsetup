@@ -5,3 +5,11 @@
 #cp -rvf .muttrc ~/
 echo "source `pwd`/shakeeb_tmux_conf" >> ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# Python packages
+# https://github.com/cknd/stackprinter/#making-it-stick
+pip install stackprinter
+> python -c "import site; print(site.PREFIXES)"
+# in e.g. some_virtualenv/lib/python3.x/site-packages/sitecustomize.py:
+import stackprinter
+stackprinter.set_excepthook(style='darkbg')
