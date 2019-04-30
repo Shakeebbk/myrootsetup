@@ -49,6 +49,12 @@ Ctrl+W _: set height (ex. 50<C-w>_)
 Ctrl+W |: set width (ex. 50<C-w>|)
 Ctrl+W =: equalize width and height of all windows
 ```
+#### Install vim plugins
+```
+cd ~/.vim_runtime
+git clone git://github.com/tpope/vim-rails.git my_plugins/vim-rails
+```
+
 ### tmux
 ```
 cntrl+a + arrows
