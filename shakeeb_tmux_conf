@@ -2,12 +2,31 @@
 set-option -g history-limit 99999999
 set-option -g default-shell /bin/zsh
 
+# Powerline status bar
+set -g status-bg black
+set -g status-fg white
+set-option -g status on
+set-option -g status-interval 2
+set-option -g status-justify "centre"
+set-option -g status-left-length 100
+set-option -g status-right-length 100
+set-option -g status-left "#(~/tmux-powerline/powerline.sh left)"
+set-option -g status-right "#(~/tmux-powerline/powerline.sh right)"
+
+set-window-option -g window-status-current-format "#[fg=colour245, bg=colour0] #I #W"
+
+
+# To reload tmux conf
+# <prefix> :source-file ~/.tmux.conf
+
+
 unbind C-b
 set -g prefix C-a # change prefix key to Ctrl-a as global opt, same as gnu screen
 bind a send-prefix #send ^A, so that you can press ctrl-a a to send ctrl-a
 
 # Save and restore tmux sessions on reboot
 # List of plugins
+# To install prefix+I
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'

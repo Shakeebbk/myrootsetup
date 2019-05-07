@@ -59,3 +59,20 @@ git clone git://github.com/tpope/vim-rails.git my_plugins/vim-rails
 ```
 cntrl+a + arrows
 ```
+#### Powerline for tmux
+https://github.com/erikw/tmux-powerline
+```
+cd ~
+git clone git@github.com:Shakeebbk/tmux-powerline.git
+
+cd /tmp
+wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+mkdir ~/.local/share/fonts
+mv PowerlineSymbols.otf ~/.local/share/fonts
+fc-cache -vf ~/.local/share/fonts/
+ls ~/.config/fontconfig/conf.d/
+mkdir ~/.config/fontconfig/conf.d/
+mkdir ~/.config/fontconfig/conf.d/ -p
+mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+```
