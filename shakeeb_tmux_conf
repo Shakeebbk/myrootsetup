@@ -15,8 +15,8 @@ set-option -g status-right "#(~/tmux-powerline/powerline.sh right)"
 
 set-window-option -g window-status-current-format "#[fg=colour245, bg=colour0] #I #W"
 
-# set mouse mode
-set -g mouse on
+# set mouse mode off
+set -g mouse off
 
 # To reload tmux conf
 # <prefix> :source-file ~/.tmux.conf
