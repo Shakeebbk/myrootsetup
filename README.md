@@ -76,3 +76,9 @@ mkdir ~/.config/fontconfig/conf.d/
 mkdir ~/.config/fontconfig/conf.d/ -p
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 ```
+
+### ZSH - oh my zsh + powerline
+https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
+https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
+https://powerline.readthedocs.io/en/latest/installation/linux.html#fonts-installation
+
