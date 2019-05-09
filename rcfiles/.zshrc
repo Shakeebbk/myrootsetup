@@ -101,3 +101,6 @@ source ~/Documents/myrootsetup/shakeeb_bashrc
 # added by Anaconda3 installer
 export PATH="/home/shakeeb/anaconda3/bin:$PATH"
 export CUDACXX="/usr/local/cuda/bin/nvcc"
+
+## powerlevel9k costumizations
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs)
