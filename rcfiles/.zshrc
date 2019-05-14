@@ -107,4 +107,5 @@ export PATH="/home/shakeeb/anaconda3/bin:$PATH"
 export CUDACXX="/usr/local/cuda/bin/nvcc"
 
 ## powerlevel9k costumizations
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv anaconda dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status user)
