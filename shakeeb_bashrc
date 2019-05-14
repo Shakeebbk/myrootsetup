@@ -40,9 +40,4 @@ git config --global user.name "Shakeeb Pasha"
 git config --global core.editor "vim"
 git config --global diff.tool "vimdiff"
 
-# zsh config
-unsetopt share_history
-ZSH_THEME="agnoster"
-eval `dircolors ~/.dir_colors/dircolors`
-
 export PATH=$PATH:/snap/bin

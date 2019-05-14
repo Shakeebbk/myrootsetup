@@ -9,12 +9,15 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#POWERLEVEL9K_MODE='awesome-fontconfig'
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-POWERLEVEL9K_SHORTEN_STRATEGY=Default
-
-ZSH_THEME="powerlevel9k/powerlevel9k"
+unsetopt share_history
+ZSH_THEME="robbyrussell"
 eval `dircolors ~/.dir_colors/dircolors`
+
+#POWERLEVEL9K_MODE='awesome-fontconfig'
+#POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+#POWERLEVEL9K_SHORTEN_STRATEGY=Default
+
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -107,5 +110,5 @@ export PATH="/home/shakeeb/anaconda3/bin:$PATH"
 export CUDACXX="/usr/local/cuda/bin/nvcc"
 
 ## powerlevel9k costumizations
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv anaconda dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status user)
+#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv anaconda dir vcs)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status user)
