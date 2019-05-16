@@ -97,3 +97,10 @@ map <tab> :tabn<CR>
 
 " avoid markdown wrap
 let g:vim_markdown_folding_disabled = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" hybrid line numbers
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
