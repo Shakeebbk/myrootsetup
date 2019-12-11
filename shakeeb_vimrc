@@ -86,6 +86,9 @@ autocmd FileType c,cpp,java,php,ruby,python setlocal expandtab
 " automatically run go fmt for golang files
 au BufWritePost *.go !gofmt -w %
 
+" hide tab characters in golang
+autocmd FileType go set nolist
+
 let g:NERDTreeWinPos = "left"
 
 " Smart way to move between windows
