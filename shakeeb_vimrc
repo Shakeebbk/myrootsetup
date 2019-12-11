@@ -81,7 +81,10 @@ endfun
 autocmd FileType c,cpp,java,php,ruby,python,go autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
 " automatically set expandtab - replace tabs with spaces
-autocmd FileType c,cpp,java,php,ruby,python,go setlocal expandtab
+autocmd FileType c,cpp,java,php,ruby,python setlocal expandtab
+
+" automatically run go fmt for golang files
+au BufWritePost *.go !gofmt -w %
 
 let g:NERDTreeWinPos = "left"
 
